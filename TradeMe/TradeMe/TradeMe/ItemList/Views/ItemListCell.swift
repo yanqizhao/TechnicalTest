@@ -25,15 +25,14 @@ final class ItemListCell: UITableViewCell, DequeuableProtocol {
     }
     
     func update(item: DTOListItem) {
-        guard let urlString = item.PictureHref else {
-            return
-        }
-        let url = URL(string: urlString)
-        pictureImageView.kf.setImage(with: url, placeholder: UIImage(named: "placeholder"))
         regionLabel.text = item.Region
         titleLabel.text = item.Title
         priceLabel.text = item.PriceDisplay
         reserveLabel.text = "Reserve met"
+        
+        let urlString = item.PictureHref ?? ""
+        let url = URL(string: urlString)
+        pictureImageView.kf.setImage(with: url, placeholder: UIImage(named: "placeholder"))
     }
 
 }
