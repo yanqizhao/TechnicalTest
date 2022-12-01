@@ -8,17 +8,9 @@
 import Foundation
 
 struct DLItem: Codable {
-    
-//    let id: Int
-//    let PictureHref: String?
-//    let Region: String?
-//    let Title: String?
-//    let IsClassified: Bool
-//    let HasBuyNow: Bool
-//    let PriceDisplay: String?
-//    let BuyNowPrice: Double
+
     enum CodingKeys: String, CodingKey {
-        case Title, PictureHref, Region, HasBuyNow, BuyNowPrice, PriceDisplay, IsClassified
+        case Title, PictureHref, Region, HasBuyNow, BuyNowPrice, PriceDisplay, IsClassified, IsReserveMet
         case id = "ListingId"
     }
     
@@ -30,6 +22,7 @@ struct DLItem: Codable {
     let BuyNowPrice: Double?
     let PriceDisplay: String
     let IsClassified: Bool?
+    let IsReserveMet: Bool?
 }
 
 struct DLResponse: Codable {

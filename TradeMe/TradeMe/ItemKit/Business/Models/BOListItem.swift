@@ -17,7 +17,8 @@ struct BOListItem: DTOListItem {
     let BuyNowPrice: Double?
     let PriceDisplay: String
     let IsClassified: Bool?
-
+    let IsReserveMet: Bool?
+    
     init?(dl: DLItem) {
         id = dl.id
         Title = dl.Title
@@ -27,15 +28,7 @@ struct BOListItem: DTOListItem {
         BuyNowPrice = dl.BuyNowPrice
         PriceDisplay = dl.PriceDisplay
         IsClassified = dl.IsClassified
-    }
-    
-}
-
-extension BOListItem: Comparable {
-    
-    static func < (lhs: BOListItem, rhs: BOListItem) -> Bool {
-//        return lhs.Date < rhs.Date
-        return true
+        IsReserveMet = dl.IsReserveMet
     }
     
 }

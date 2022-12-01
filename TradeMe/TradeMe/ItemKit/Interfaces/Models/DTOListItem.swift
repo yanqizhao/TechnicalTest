@@ -17,4 +17,6 @@ public protocol DTOListItem {
     var BuyNowPrice: Double? { get }
     var PriceDisplay: String { get }
     var IsClassified: Bool? { get }
+    var IsReserveMet: Bool? { get }
+    
 }

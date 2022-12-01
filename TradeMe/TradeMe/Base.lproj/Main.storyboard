@@ -50,19 +50,25 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNr-bc-cGd" userLabel="Title">
-                                            <rect key="frame" x="130" y="29" width="228" height="19"/>
+                                            <rect key="frame" x="130" y="29" width="248" height="19"/>
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                             <color key="textColor" name="TextDark"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reserve met" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xc-As-qz4" userLabel="Reserve met">
-                                            <rect key="frame" x="130" y="93" width="248" height="17"/>
+                                            <rect key="frame" x="130" y="93" width="113" height="17"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" name="TextLight"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r3r-VU-wWZ" userLabel="Price">
-                                            <rect key="frame" x="130" y="71" width="248" height="20"/>
+                                            <rect key="frame" x="130" y="71" width="113" height="20"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                            <color key="textColor" name="TextDark"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pwc-VT-NoQ" userLabel="BuyNowPrice">
+                                            <rect key="frame" x="378" y="91.333333333333329" width="0.0" height="0.0"/>
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                             <color key="textColor" name="TextDark"/>
                                             <nil key="highlightedColor"/>
@@ -74,25 +80,38 @@
                                                 <constraint firstAttribute="height" constant="100" id="vCo-i6-5wF"/>
                                             </constraints>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scT-YK-LH5" userLabel="Buy Now">
+                                            <rect key="frame" x="378" y="93.333333333333329" width="0.0" height="16.666666666666671"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" name="TextLight"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="nNr-bc-cGd" secondAttribute="trailing" constant="35" id="0mj-oa-pdu"/>
+                                        <constraint firstAttribute="trailing" secondItem="nNr-bc-cGd" secondAttribute="trailing" constant="15" id="0mj-oa-pdu"/>
                                         <constraint firstItem="A5X-De-Upg" firstAttribute="top" secondItem="iYq-xg-P1X" secondAttribute="top" constant="10" id="2mz-YZ-ATm"/>
                                         <constraint firstItem="r3r-VU-wWZ" firstAttribute="leading" secondItem="nVz-jZ-vNM" secondAttribute="trailing" constant="15" id="84x-9r-c2E"/>
+                                        <constraint firstAttribute="trailing" secondItem="Pwc-VT-NoQ" secondAttribute="trailing" constant="15" id="8Yd-xN-cIs"/>
                                         <constraint firstItem="nVz-jZ-vNM" firstAttribute="centerY" secondItem="iYq-xg-P1X" secondAttribute="centerY" id="9Xc-WK-mFJ"/>
-                                        <constraint firstAttribute="trailing" secondItem="5xc-As-qz4" secondAttribute="trailing" constant="15" id="Cw8-Qz-oEF"/>
+                                        <constraint firstAttribute="trailing" secondItem="5xc-As-qz4" secondAttribute="trailing" constant="150" id="Cw8-Qz-oEF"/>
                                         <constraint firstItem="A5X-De-Upg" firstAttribute="leading" secondItem="nVz-jZ-vNM" secondAttribute="trailing" constant="15" id="Euo-dW-mX1"/>
+                                        <constraint firstItem="scT-YK-LH5" firstAttribute="top" secondItem="Pwc-VT-NoQ" secondAttribute="bottom" constant="2" id="LHs-SP-iS8"/>
+                                        <constraint firstAttribute="bottom" secondItem="scT-YK-LH5" secondAttribute="bottom" constant="10" id="OUG-9n-zgz"/>
                                         <constraint firstAttribute="bottom" secondItem="5xc-As-qz4" secondAttribute="bottom" constant="10" id="P7a-pm-di0"/>
                                         <constraint firstAttribute="trailing" secondItem="A5X-De-Upg" secondAttribute="trailing" constant="15" id="RIu-DY-MjB"/>
                                         <constraint firstItem="nNr-bc-cGd" firstAttribute="leading" secondItem="nVz-jZ-vNM" secondAttribute="trailing" constant="15" id="T12-US-plH"/>
                                         <constraint firstItem="5xc-As-qz4" firstAttribute="top" secondItem="r3r-VU-wWZ" secondAttribute="bottom" constant="2" id="UxK-Xl-n5W"/>
-                                        <constraint firstAttribute="trailing" secondItem="r3r-VU-wWZ" secondAttribute="trailing" constant="15" id="Ybn-OJ-TQe"/>
+                                        <constraint firstAttribute="trailing" secondItem="r3r-VU-wWZ" secondAttribute="trailing" constant="150" id="Ybn-OJ-TQe"/>
                                         <constraint firstItem="nVz-jZ-vNM" firstAttribute="leading" secondItem="iYq-xg-P1X" secondAttribute="leading" constant="15" id="f19-eb-OXE"/>
+                                        <constraint firstAttribute="trailing" secondItem="scT-YK-LH5" secondAttribute="trailing" constant="15" id="fHN-mE-Fh5"/>
                                         <constraint firstItem="5xc-As-qz4" firstAttribute="leading" secondItem="nVz-jZ-vNM" secondAttribute="trailing" constant="15" id="j9Q-Ny-EY9"/>
                                         <constraint firstItem="nNr-bc-cGd" firstAttribute="top" secondItem="A5X-De-Upg" secondAttribute="bottom" constant="2" id="une-R3-584"/>
+                                        <constraint firstItem="Pwc-VT-NoQ" firstAttribute="baseline" secondItem="r3r-VU-wWZ" secondAttribute="baseline" id="xlM-Dq-5Xz"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="buyNowLabel" destination="scT-YK-LH5" id="JJG-33-kjt"/>
+                                    <outlet property="buyNowPriceLabel" destination="Pwc-VT-NoQ" id="b6I-mU-2ZP"/>
                                     <outlet property="pictureImageView" destination="nVz-jZ-vNM" id="3gL-49-RNP"/>
                                     <outlet property="priceLabel" destination="r3r-VU-wWZ" id="R1Z-aJ-QBZ"/>
                                     <outlet property="regionLabel" destination="A5X-De-Upg" id="tIb-l4-T52"/>
