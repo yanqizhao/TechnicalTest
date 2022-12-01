@@ -80,7 +80,10 @@ extension ItemListViewController: ItemListPresenterDelegate {
     }
     
     func onNavigateDetailPage(with id: String) {
-        
+        let alert = UIAlertController(title: "Coming soon", message: nil, preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default)
+        alert.addAction(action)
+        navigationController?.present(alert, animated: true)
     }
     
 }

@@ -52,7 +52,7 @@ final class ItemListPresenter {
     
     func onSelectItem(at indexPath: IndexPath) {
         let item = getItem(at: indexPath)
-//        delegate?.onNavigateDetailPage(with: item.id)
+        delegate?.onNavigateDetailPage(with: String(item.id))
     }
     
     var rowsCount: Int {
