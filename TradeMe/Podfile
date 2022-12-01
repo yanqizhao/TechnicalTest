@@ -1,24 +1,22 @@
 platform :ios, '14.0'
 source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
 
-target 'TradeMe' do
-  use_frameworks!
-
+def common_pods
   pod 'Alamofire'
   pod 'Kingfisher'
   pod 'SnapKit'
   pod 'Cache'
+end
 
-  # Pods for TradeMe
+target 'TradeMe' do
+  common_pods
+end
 
-  target 'TradeMeTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+target 'TradeMeTests' do
+  common_pods
+end
 
-  target 'TradeMeUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
+target 'TradeMeUITests' do
+  common_pods
 end

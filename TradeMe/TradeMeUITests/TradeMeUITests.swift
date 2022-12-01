@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import TradeMe
 
 final class TradeMeUITests: XCTestCase {
 
@@ -23,11 +24,28 @@ final class TradeMeUITests: XCTestCase {
     }
 
     func testExample() throws {
-        // UI tests must launch the application that they test.
+        
         let app = XCUIApplication()
         app.launch()
+        app.children(matching: .window).element.tap()
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let tabBar = app.tabBars["Tab Bar"]
+        tabBar.buttons["Notifications"].tap()
+        tabBar.buttons["Watchlist"].tap()
+        tabBar.buttons["My Trade Me"].tap()
+        tabBar.buttons["Browse"].tap()
+        
+        app.tables.children(matching: .cell).element(boundBy: 2).staticTexts["$45.00"].tap()
+        
+        let okButton = app.alerts["Coming soon"].scrollViews.otherElements.buttons["OK"]
+        okButton.tap()
+        
+        let browseNavigationBar = app.navigationBars["Browse"]
+        browseNavigationBar.buttons["Item"].tap()
+        okButton.tap()
+        browseNavigationBar.children(matching: .button).element(boundBy: 1).tap()
+        okButton.tap()
+        
     }
 
     func testLaunchPerformance() throws {
