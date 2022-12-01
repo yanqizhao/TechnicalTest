@@ -5,6 +5,7 @@ target 'TradeMe' do
   use_frameworks!
 
   pod 'Alamofire'
+  pod 'Kingfisher'
   pod 'SnapKit'
   pod 'Cache'
 

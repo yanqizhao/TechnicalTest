@@ -20,6 +20,23 @@
 		59672F85293822D500FBD7A8 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F84293822D500FBD7A8 /* NotificationsViewController.swift */; };
 		59672F87293822E200FBD7A8 /* WatchlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F86293822E200FBD7A8 /* WatchlistViewController.swift */; };
 		59672F89293822F100FBD7A8 /* MyTradeMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F88293822F100FBD7A8 /* MyTradeMeViewController.swift */; };
+		59672F9E293831B800FBD7A8 /* ActivityIndicatorLodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F9D293831B800FBD7A8 /* ActivityIndicatorLodable.swift */; };
+		59672FA12938323A00FBD7A8 /* ErrorViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FA02938323A00FBD7A8 /* ErrorViewPresentable.swift */; };
+		59672FA42938326C00FBD7A8 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FA32938326C00FBD7A8 /* ErrorView.swift */; };
+		59672FA7293832B100FBD7A8 /* UIOErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FA6293832B100FBD7A8 /* UIOErrorInfo.swift */; };
+		59672FAA2938338500FBD7A8 /* ItemListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FA92938338500FBD7A8 /* ItemListCell.swift */; };
+		59672FAD2938344F00FBD7A8 /* UITableView+Dequeuable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FAC2938344F00FBD7A8 /* UITableView+Dequeuable.swift */; };
+		59672FAF2938347F00FBD7A8 /* DequeuableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FAE2938347F00FBD7A8 /* DequeuableProtocol.swift */; };
+		59672FB12938350B00FBD7A8 /* ItemListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FB02938350B00FBD7A8 /* ItemListPresenter.swift */; };
+		59672FB62938360400FBD7A8 /* DTOListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FB52938360400FBD7A8 /* DTOListItem.swift */; };
+		59672FB82938366100FBD7A8 /* ItemListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FB72938366100FBD7A8 /* ItemListProtocol.swift */; };
+		59672FBA2938375600FBD7A8 /* ItemFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FB92938375600FBD7A8 /* ItemFacade.swift */; };
+		59672FBC293837BF00FBD7A8 /* ItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FBB293837BF00FBD7A8 /* ItemProtocol.swift */; };
+		59672FBF2938381800FBD7A8 /* ItemListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FBE2938381800FBD7A8 /* ItemListInteractor.swift */; };
+		59672FC2293838D200FBD7A8 /* BOListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FC1293838D200FBD7A8 /* BOListItem.swift */; };
+		59672FC52938398200FBD7A8 /* ItemListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FC42938398200FBD7A8 /* ItemListRepository.swift */; };
+		59672FC8293839F100FBD7A8 /* DLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FC7293839F100FBD7A8 /* DLItem.swift */; };
+		59672FCA29383A3A00FBD7A8 /* ItemListCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672FC929383A3A00FBD7A8 /* ItemListCacheService.swift */; };
 		8D126F17095A396173C35112 /* Pods_TradeMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84497D0590A9625E9C1A86CF /* Pods_TradeMeTests.framework */; };
 		974C10A7A210947CE9373AF3 /* Pods_TradeMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8E16F2749F32C253001EE0 /* Pods_TradeMeUITests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +78,23 @@
 		59672F84293822D500FBD7A8 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		59672F86293822E200FBD7A8 /* WatchlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistViewController.swift; sourceTree = "<group>"; };
 		59672F88293822F100FBD7A8 /* MyTradeMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTradeMeViewController.swift; sourceTree = "<group>"; };
+		59672F9D293831B800FBD7A8 /* ActivityIndicatorLodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorLodable.swift; sourceTree = "<group>"; };
+		59672FA02938323A00FBD7A8 /* ErrorViewPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewPresentable.swift; sourceTree = "<group>"; };
+		59672FA32938326C00FBD7A8 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		59672FA6293832B100FBD7A8 /* UIOErrorInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIOErrorInfo.swift; sourceTree = "<group>"; };
+		59672FA92938338500FBD7A8 /* ItemListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListCell.swift; sourceTree = "<group>"; };
+		59672FAC2938344F00FBD7A8 /* UITableView+Dequeuable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeuable.swift"; sourceTree = "<group>"; };
+		59672FAE2938347F00FBD7A8 /* DequeuableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeuableProtocol.swift; sourceTree = "<group>"; };
+		59672FB02938350B00FBD7A8 /* ItemListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListPresenter.swift; sourceTree = "<group>"; };
+		59672FB52938360400FBD7A8 /* DTOListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTOListItem.swift; sourceTree = "<group>"; };
+		59672FB72938366100FBD7A8 /* ItemListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListProtocol.swift; sourceTree = "<group>"; };
+		59672FB92938375600FBD7A8 /* ItemFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemFacade.swift; sourceTree = "<group>"; };
+		59672FBB293837BF00FBD7A8 /* ItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemProtocol.swift; sourceTree = "<group>"; };
+		59672FBE2938381800FBD7A8 /* ItemListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListInteractor.swift; sourceTree = "<group>"; };
+		59672FC1293838D200FBD7A8 /* BOListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOListItem.swift; sourceTree = "<group>"; };
+		59672FC42938398200FBD7A8 /* ItemListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListRepository.swift; sourceTree = "<group>"; };
+		59672FC7293839F100FBD7A8 /* DLItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLItem.swift; sourceTree = "<group>"; };
+		59672FC929383A3A00FBD7A8 /* ItemListCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListCacheService.swift; sourceTree = "<group>"; };
 		6CB1FE9E383A8AB483BC480D /* Pods_TradeMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradeMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84497D0590A9625E9C1A86CF /* Pods_TradeMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradeMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8989D88BA090FF94B5FC4C21 /* Pods-TradeMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradeMe.release.xcconfig"; path = "Target Support Files/Pods-TradeMe/Pods-TradeMe.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +182,8 @@
 				59672F4D293817CB00FBD7A8 /* AppDelegate.swift */,
 				59672F4F293817CB00FBD7A8 /* SceneDelegate.swift */,
 				59672F7D29381E5B00FBD7A8 /* TradeMe */,
+				59672F9B293831B800FBD7A8 /* Tools */,
+				59672FB2293835CB00FBD7A8 /* ItemKit */,
 				59672F53293817CB00FBD7A8 /* Main.storyboard */,
 				59672F56293817D000FBD7A8 /* Assets.xcassets */,
 				59672F58293817D000FBD7A8 /* LaunchScreen.storyboard */,
@@ -187,7 +223,9 @@
 		59672F7E29381E6B00FBD7A8 /* ItemList */ = {
 			isa = PBXGroup;
 			children = (
+				59672FA82938336100FBD7A8 /* Views */,
 				59672F7F29381EBC00FBD7A8 /* ItemListViewController.swift */,
+				59672FB02938350B00FBD7A8 /* ItemListPresenter.swift */,
 			);
 			path = ItemList;
 			sourceTree = "<group>";
@@ -214,6 +252,131 @@
 				59672F88293822F100FBD7A8 /* MyTradeMeViewController.swift */,
 			);
 			path = "My Trade Me";
+			sourceTree = "<group>";
+		};
+		59672F9B293831B800FBD7A8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				59672F9C293831B800FBD7A8 /* UI */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		59672F9C293831B800FBD7A8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				59672F9F2938322100FBD7A8 /* ErrorView */,
+				59672FAB2938340300FBD7A8 /* Extensions */,
+				59672F9D293831B800FBD7A8 /* ActivityIndicatorLodable.swift */,
+				59672FAE2938347F00FBD7A8 /* DequeuableProtocol.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		59672F9F2938322100FBD7A8 /* ErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				59672FA22938325900FBD7A8 /* Views */,
+				59672FA5293832A400FBD7A8 /* Models */,
+				59672FA02938323A00FBD7A8 /* ErrorViewPresentable.swift */,
+			);
+			path = ErrorView;
+			sourceTree = "<group>";
+		};
+		59672FA22938325900FBD7A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59672FA32938326C00FBD7A8 /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		59672FA5293832A400FBD7A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				59672FA6293832B100FBD7A8 /* UIOErrorInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		59672FA82938336100FBD7A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59672FA92938338500FBD7A8 /* ItemListCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		59672FAB2938340300FBD7A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				59672FAC2938344F00FBD7A8 /* UITableView+Dequeuable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		59672FB2293835CB00FBD7A8 /* ItemKit */ = {
+			isa = PBXGroup;
+			children = (
+				59672FBD2938380400FBD7A8 /* Business */,
+				59672FC32938396400FBD7A8 /* Data */,
+				59672FB3293835E700FBD7A8 /* Interfaces */,
+				59672FB92938375600FBD7A8 /* ItemFacade.swift */,
+			);
+			path = ItemKit;
+			sourceTree = "<group>";
+		};
+		59672FB3293835E700FBD7A8 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				59672FB4293835F500FBD7A8 /* Models */,
+				59672FB72938366100FBD7A8 /* ItemListProtocol.swift */,
+				59672FBB293837BF00FBD7A8 /* ItemProtocol.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		59672FB4293835F500FBD7A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				59672FB52938360400FBD7A8 /* DTOListItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		59672FBD2938380400FBD7A8 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				59672FC0293838C300FBD7A8 /* Models */,
+				59672FBE2938381800FBD7A8 /* ItemListInteractor.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		59672FC0293838C300FBD7A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				59672FC1293838D200FBD7A8 /* BOListItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		59672FC32938396400FBD7A8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				59672FC6293839E700FBD7A8 /* Models */,
+				59672FC42938398200FBD7A8 /* ItemListRepository.swift */,
+				59672FC929383A3A00FBD7A8 /* ItemListCacheService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		59672FC6293839E700FBD7A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				59672FC7293839F100FBD7A8 /* DLItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,10 +602,27 @@
 			files = (
 				59672F4E293817CB00FBD7A8 /* AppDelegate.swift in Sources */,
 				59672F87293822E200FBD7A8 /* WatchlistViewController.swift in Sources */,
+				59672FBC293837BF00FBD7A8 /* ItemProtocol.swift in Sources */,
+				59672FC52938398200FBD7A8 /* ItemListRepository.swift in Sources */,
 				59672F50293817CB00FBD7A8 /* SceneDelegate.swift in Sources */,
+				59672FB62938360400FBD7A8 /* DTOListItem.swift in Sources */,
+				59672F9E293831B800FBD7A8 /* ActivityIndicatorLodable.swift in Sources */,
 				59672F8029381EBC00FBD7A8 /* ItemListViewController.swift in Sources */,
+				59672FB12938350B00FBD7A8 /* ItemListPresenter.swift in Sources */,
 				59672F85293822D500FBD7A8 /* NotificationsViewController.swift in Sources */,
+				59672FBF2938381800FBD7A8 /* ItemListInteractor.swift in Sources */,
 				59672F89293822F100FBD7A8 /* MyTradeMeViewController.swift in Sources */,
+				59672FAA2938338500FBD7A8 /* ItemListCell.swift in Sources */,
+				59672FAD2938344F00FBD7A8 /* UITableView+Dequeuable.swift in Sources */,
+				59672FA42938326C00FBD7A8 /* ErrorView.swift in Sources */,
+				59672FA7293832B100FBD7A8 /* UIOErrorInfo.swift in Sources */,
+				59672FC2293838D200FBD7A8 /* BOListItem.swift in Sources */,
+				59672FA12938323A00FBD7A8 /* ErrorViewPresentable.swift in Sources */,
+				59672FB82938366100FBD7A8 /* ItemListProtocol.swift in Sources */,
+				59672FBA2938375600FBD7A8 /* ItemFacade.swift in Sources */,
+				59672FCA29383A3A00FBD7A8 /* ItemListCacheService.swift in Sources */,
+				59672FC8293839F100FBD7A8 /* DLItem.swift in Sources */,
+				59672FAF2938347F00FBD7A8 /* DequeuableProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +728,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -602,7 +782,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -628,6 +808,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -657,6 +838,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
