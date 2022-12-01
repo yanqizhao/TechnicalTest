@@ -1,0 +1,23 @@
+platform :ios, '14.0'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'TradeMe' do
+  use_frameworks!
+
+  pod 'Alamofire'
+  pod 'SnapKit'
+  pod 'Cache'
+
+  # Pods for TradeMe
+
+  target 'TradeMeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TradeMeUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
