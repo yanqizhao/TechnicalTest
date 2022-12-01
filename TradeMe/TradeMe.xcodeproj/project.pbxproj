@@ -223,9 +223,9 @@
 		59672F7E29381E6B00FBD7A8 /* ItemList */ = {
 			isa = PBXGroup;
 			children = (
+				59672FCC293889D100FBD7A8 /* Presenter */,
+				59672FCB293889C500FBD7A8 /* Controller */,
 				59672FA82938336100FBD7A8 /* Views */,
-				59672F7F29381EBC00FBD7A8 /* ItemListViewController.swift */,
-				59672FB02938350B00FBD7A8 /* ItemListPresenter.swift */,
 			);
 			path = ItemList;
 			sourceTree = "<group>";
@@ -377,6 +377,22 @@
 				59672FC7293839F100FBD7A8 /* DLItem.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		59672FCB293889C500FBD7A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59672F7F29381EBC00FBD7A8 /* ItemListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		59672FCC293889D100FBD7A8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				59672FB02938350B00FBD7A8 /* ItemListPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
