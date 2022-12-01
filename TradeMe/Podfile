@@ -1,0 +1,22 @@
+platform :ios, '14.0'
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+def common_pods
+  pod 'Alamofire'
+  pod 'Kingfisher'
+  pod 'SnapKit'
+  pod 'Cache'
+end
+
+target 'TradeMe' do
+  common_pods
+end
+
+target 'TradeMeTests' do
+  common_pods
+end
+
+target 'TradeMeUITests' do
+  common_pods
+end
