@@ -25,7 +25,9 @@ extension ErrorViewPresentable where Self: UIViewController {
         errorView.update(errorInfo: errorInfo)
         view.addSubview(errorView)
         errorView.snp.makeConstraints { (make) in
-            make.top.bottom.left.right.equalTo(self.view)
+            make.width.equalTo(350)
+            make.height.equalTo(200)
+            make.center.equalTo(self.view)
         }
     }
     
