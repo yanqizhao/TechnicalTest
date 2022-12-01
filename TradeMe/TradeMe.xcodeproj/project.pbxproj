@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		59672F4E293817CB00FBD7A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F4D293817CB00FBD7A8 /* AppDelegate.swift */; };
 		59672F50293817CB00FBD7A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F4F293817CB00FBD7A8 /* SceneDelegate.swift */; };
-		59672F52293817CB00FBD7A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F51293817CB00FBD7A8 /* ViewController.swift */; };
 		59672F55293817CB00FBD7A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59672F53293817CB00FBD7A8 /* Main.storyboard */; };
 		59672F57293817D000FBD7A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59672F56293817D000FBD7A8 /* Assets.xcassets */; };
 		59672F5A293817D000FBD7A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59672F58293817D000FBD7A8 /* LaunchScreen.storyboard */; };
 		59672F65293817D100FBD7A8 /* TradeMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F64293817D100FBD7A8 /* TradeMeTests.swift */; };
 		59672F6F293817D100FBD7A8 /* TradeMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F6E293817D100FBD7A8 /* TradeMeUITests.swift */; };
 		59672F71293817D100FBD7A8 /* TradeMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F70293817D100FBD7A8 /* TradeMeUITestsLaunchTests.swift */; };
+		59672F8029381EBC00FBD7A8 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F7F29381EBC00FBD7A8 /* ItemListViewController.swift */; };
+		59672F85293822D500FBD7A8 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F84293822D500FBD7A8 /* NotificationsViewController.swift */; };
+		59672F87293822E200FBD7A8 /* WatchlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F86293822E200FBD7A8 /* WatchlistViewController.swift */; };
+		59672F89293822F100FBD7A8 /* MyTradeMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F88293822F100FBD7A8 /* MyTradeMeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,6 @@
 		59672F4A293817CB00FBD7A8 /* TradeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59672F4D293817CB00FBD7A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59672F4F293817CB00FBD7A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		59672F51293817CB00FBD7A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59672F54293817CB00FBD7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59672F56293817D000FBD7A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59672F59293817D000FBD7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		59672F6A293817D100FBD7A8 /* TradeMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59672F6E293817D100FBD7A8 /* TradeMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMeUITests.swift; sourceTree = "<group>"; };
 		59672F70293817D100FBD7A8 /* TradeMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59672F7F29381EBC00FBD7A8 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
+		59672F84293822D500FBD7A8 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		59672F86293822E200FBD7A8 /* WatchlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistViewController.swift; sourceTree = "<group>"; };
+		59672F88293822F100FBD7A8 /* MyTradeMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTradeMeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,7 @@
 			children = (
 				59672F4D293817CB00FBD7A8 /* AppDelegate.swift */,
 				59672F4F293817CB00FBD7A8 /* SceneDelegate.swift */,
-				59672F51293817CB00FBD7A8 /* ViewController.swift */,
+				59672F7D29381E5B00FBD7A8 /* TradeMe */,
 				59672F53293817CB00FBD7A8 /* Main.storyboard */,
 				59672F56293817D000FBD7A8 /* Assets.xcassets */,
 				59672F58293817D000FBD7A8 /* LaunchScreen.storyboard */,
@@ -125,6 +131,49 @@
 				59672F70293817D100FBD7A8 /* TradeMeUITestsLaunchTests.swift */,
 			);
 			path = TradeMeUITests;
+			sourceTree = "<group>";
+		};
+		59672F7D29381E5B00FBD7A8 /* TradeMe */ = {
+			isa = PBXGroup;
+			children = (
+				59672F7E29381E6B00FBD7A8 /* ItemList */,
+				59672F81293822A500FBD7A8 /* Notifications */,
+				59672F82293822AE00FBD7A8 /* Watchlist */,
+				59672F83293822B400FBD7A8 /* My Trade Me */,
+			);
+			path = TradeMe;
+			sourceTree = "<group>";
+		};
+		59672F7E29381E6B00FBD7A8 /* ItemList */ = {
+			isa = PBXGroup;
+			children = (
+				59672F7F29381EBC00FBD7A8 /* ItemListViewController.swift */,
+			);
+			path = ItemList;
+			sourceTree = "<group>";
+		};
+		59672F81293822A500FBD7A8 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				59672F84293822D500FBD7A8 /* NotificationsViewController.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		59672F82293822AE00FBD7A8 /* Watchlist */ = {
+			isa = PBXGroup;
+			children = (
+				59672F86293822E200FBD7A8 /* WatchlistViewController.swift */,
+			);
+			path = Watchlist;
+			sourceTree = "<group>";
+		};
+		59672F83293822B400FBD7A8 /* My Trade Me */ = {
+			isa = PBXGroup;
+			children = (
+				59672F88293822F100FBD7A8 /* MyTradeMeViewController.swift */,
+			);
+			path = "My Trade Me";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59672F52293817CB00FBD7A8 /* ViewController.swift in Sources */,
 				59672F4E293817CB00FBD7A8 /* AppDelegate.swift in Sources */,
+				59672F87293822E200FBD7A8 /* WatchlistViewController.swift in Sources */,
 				59672F50293817CB00FBD7A8 /* SceneDelegate.swift in Sources */,
+				59672F8029381EBC00FBD7A8 /* ItemListViewController.swift in Sources */,
+				59672F85293822D500FBD7A8 /* NotificationsViewController.swift in Sources */,
+				59672F89293822F100FBD7A8 /* MyTradeMeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
