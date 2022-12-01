@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ItemListViewController: UITableViewController, ActivityIndicatorLodable, ErrorViewPresentable {
+class ItemListViewController: UITableViewController, ActivityIndicatorLodable, ErrorViewPresentable, AlertViewPresentable {
 
     override var tableView: UITableView! {
         didSet {
@@ -80,11 +80,17 @@ extension ItemListViewController: ItemListPresenterDelegate {
     }
     
     func onNavigateDetailPage(with id: String) {
-        let alert = UIAlertController(title: "Coming soon", message: nil, preferredStyle: .alert)
-        let action = UIAlertAction(title: "OK", style: .default)
-        alert.addAction(action)
-        navigationController?.present(alert, animated: true)
+        showAlert()
     }
     
 }
 
+extension ItemListViewController {
+    @IBAction func searchTap() {
+        showAlert()
+    }
+    
+    @IBAction func cartTap() {
+        showAlert()
+    }
+}

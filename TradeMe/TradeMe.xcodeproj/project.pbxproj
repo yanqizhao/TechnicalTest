@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2BA1C61BFD69ED36021081F0 /* Pods_TradeMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1FE9E383A8AB483BC480D /* Pods_TradeMe.framework */; };
+		595FC3482938930F006BCB7E /* AlertViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595FC3472938930F006BCB7E /* AlertViewPresentable.swift */; };
 		59672F4E293817CB00FBD7A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F4D293817CB00FBD7A8 /* AppDelegate.swift */; };
 		59672F50293817CB00FBD7A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59672F4F293817CB00FBD7A8 /* SceneDelegate.swift */; };
 		59672F55293817CB00FBD7A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59672F53293817CB00FBD7A8 /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 		00503829376A9FEBD0016131 /* Pods-TradeMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradeMeTests.debug.xcconfig"; path = "Target Support Files/Pods-TradeMeTests/Pods-TradeMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1347B1B489A4C858E2DF749D /* Pods-TradeMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradeMe.debug.xcconfig"; path = "Target Support Files/Pods-TradeMe/Pods-TradeMe.debug.xcconfig"; sourceTree = "<group>"; };
 		1D8E16F2749F32C253001EE0 /* Pods_TradeMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradeMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		595FC3472938930F006BCB7E /* AlertViewPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewPresentable.swift; sourceTree = "<group>"; };
 		59672F4A293817CB00FBD7A8 /* TradeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59672F4D293817CB00FBD7A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59672F4F293817CB00FBD7A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 		59672F9C293831B800FBD7A8 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				59672FCD293891CF00FBD7A8 /* AlertView */,
 				59672F9F2938322100FBD7A8 /* ErrorView */,
 				59672FAB2938340300FBD7A8 /* Extensions */,
 				59672F9D293831B800FBD7A8 /* ActivityIndicatorLodable.swift */,
@@ -393,6 +396,14 @@
 				59672FB02938350B00FBD7A8 /* ItemListPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		59672FCD293891CF00FBD7A8 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				595FC3472938930F006BCB7E /* AlertViewPresentable.swift */,
+			);
+			path = AlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -629,6 +640,7 @@
 				59672FBF2938381800FBD7A8 /* ItemListInteractor.swift in Sources */,
 				59672F89293822F100FBD7A8 /* MyTradeMeViewController.swift in Sources */,
 				59672FAA2938338500FBD7A8 /* ItemListCell.swift in Sources */,
+				595FC3482938930F006BCB7E /* AlertViewPresentable.swift in Sources */,
 				59672FAD2938344F00FBD7A8 /* UITableView+Dequeuable.swift in Sources */,
 				59672FA42938326C00FBD7A8 /* ErrorView.swift in Sources */,
 				59672FA7293832B100FBD7A8 /* UIOErrorInfo.swift in Sources */,
